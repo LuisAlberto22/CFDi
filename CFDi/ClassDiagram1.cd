@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CFDi.CFDi" Collapsed="true">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ICAACEYAAAcAgiEAAAhAIAAAAIAASCIEIAAjAgAAACE=</HashCode>
+      <FileName>CFDi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFDi.Comprobantes.ComprobanteInformacionGlobal" Collapsed="true">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Comprobantes\ComprobanteInformacionGlobal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFDi.Comprobantes.ComprobanteCfdiRelacionados" Collapsed="true">
+    <Position X="4" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Comprobantes\ComprobanteCfdiRelacionados.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFDi.Comprobantes.ComprobanteEmisor" Collapsed="true">
+    <Position X="7.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAACAAAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Comprobantes\ComprobanteEmisor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFDi.Comprobantes.ComprobanteReceptor" Collapsed="true">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABBAAAAAAAAAAAAAQAgRABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Comprobantes\ComprobanteReceptor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFDi.Comprobantes.ComprobanteConcepto" Collapsed="true">
+    <Position X="7.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAABFGEAAAQAAgAAAAEAEAABABAAIAAAAAAiMAAAAAA=</HashCode>
+      <FileName>Comprobantes\ComprobanteConcepto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFDi.Comprobantes.ComprobanteComplemento" Collapsed="true">
+    <Position X="5.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Comprobantes\ComprobanteComplemento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFDi.Comprobantes.ComprobanteAddenda" Collapsed="true">
+    <Position X="2.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Comprobantes\ComprobanteAddenda.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFDi.Comprobantes.ComprobanteConceptoImpuestos" Collapsed="true">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Comprobantes\ComprobanteConceptoImpuestos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFDi.Comprobantes.ComprobanteConceptoACuentaTerceros" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAACAAAAAAIAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Comprobantes\ComprobanteConceptoACuentaTerceros.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFDi.Comprobantes.ComprobanteConceptoInformacionAduanera" Collapsed="true">
+    <Position X="2.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Comprobantes\ComprobanteConceptoInformacionAduanera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFDi.Comprobantes.ComprobanteConceptoCuentaPredial" Collapsed="true">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Comprobantes\ComprobanteConceptoCuentaPredial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFDi.Comprobantes.ComprobanteConceptoComplementoConcepto" Collapsed="true">
+    <Position X="2.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Comprobantes\ComprobanteConceptoComplementoConcepto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFDi.Comprobantes.ComprobanteConceptoParte" Collapsed="true">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAABACEAAAQAAAAAAAEAgAABAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Comprobantes\ComprobanteConceptoParte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFDi.Comprobantes.ComprobanteConceptoParteInformacionAduanera" Collapsed="true">
+    <Position X="5.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Comprobantes\ComprobanteConceptoParteInformacionAduanera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFDi.Comprobantes.ComprobanteConceptoImpuestosRetencion" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Comprobantes\ComprobanteImpuestosRetencion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFDi.Comprobantes.ComprobanteConceptoImpuestosTraslado" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAgABAAEQAAAAAAAAAAAAAAAAAAAAQAg=</HashCode>
+      <FileName>Comprobantes\ComprobanteImpuestosTraslado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFDi.Comprobantes.ComprobanteImpuestos" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAFgAAAAIAAABAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Comprobantes\ComprobanteImpuestos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFDi.Serialization.CFDiSerializer">
+    <Position X="6" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACBACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Serialization\CFDiSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
