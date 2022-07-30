@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using CFDi;
+using CFDi.Comprobantes.V40;
 
 namespace PruebaLibreria
 {
@@ -11,9 +11,8 @@ namespace PruebaLibreria
 	{
 		static void Main(string[] args)
 		{
-			CFDi.Serialization.CFDiSerializer cFDiSerializer = new CFDi.Serialization.CFDiSerializer();
-			var cfdi = cFDiSerializer.DeSerialize(@"C:\Users\guich\OneDrive\Escritorio\pruebaComprobantes\REPR0000001435 ZENTRIX INDUSTRIES LIMITED.xml");
-			Console.WriteLine(cfdi.Folio);
+			CFDi.AbstractCFDiFactory cFDiV40Factory = new CFDi.CFDiV40Factory();
+			var cfdi = (Comprobante)cFDiV40Factory.CreateLoader().LoadCFDi(@"C:\Users\guich\OneDrive\Escritorio\pruebaComprobantes\FF0001168383 TRAJES INTERNACIONALES SA DE CV.xml");
 		}
 	}
 }
