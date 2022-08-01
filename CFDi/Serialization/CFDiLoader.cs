@@ -3,7 +3,6 @@ using System.IO;
 using System.Xml;
 using System;
 using CFDi.Comprobantes;
-using CFDi.Exception;
 
 namespace CFDi.Serialization
 {
