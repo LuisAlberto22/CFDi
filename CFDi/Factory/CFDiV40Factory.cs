@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CFDi
+namespace CFDi.Factory
 {
 	public class CFDiV40Factory : AbstractCFDiFactory
 	{
@@ -17,7 +17,7 @@ namespace CFDi
 
 		public override CFDiLoader CreateLoader()
 		{
-			return new CFDiLoader(typeof(Comprobante), "http://www.sat.gob.mx/cfd/4");
+			return new CFDiLoader(typeof(Comprobante), "http://www.sat.gob.mx/cfd/4",4);
 		}
 	}
 }

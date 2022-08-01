@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using CFDi.Comprobantes;
 
-namespace CFDi
+namespace CFDi.Factory
 {
 	public abstract class AbstractCFDiFactory
 	{

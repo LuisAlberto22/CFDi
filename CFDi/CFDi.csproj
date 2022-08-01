@@ -41,8 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractCFDiFactory.cs" />
-    <Compile Include="CFDiV33Factory.cs" />
+    <Compile Include="Factory\AbstractCFDiFactory.cs" />
+    <Compile Include="Factory\CFDiV33Factory.cs" />
     <Compile Include="Comprobantes\V33\Complemento.cs" />
     <Compile Include="Comprobantes\V33\Comprobante.cs" />
     <Compile Include="Comprobantes\V33\Concepto.cs" />
@@ -75,7 +75,7 @@
     <Compile Include="Comprobantes\V40\ComprobanteInformacionGlobal.cs" />
     <Compile Include="Comprobantes\V40\ComprobanteReceptor.cs" />
     <Compile Include="Comprobantes\ComprobaseBase.cs" />
-    <Compile Include="CFDiV40Factory.cs" />
+    <Compile Include="Factory\CFDiV40Factory.cs" />
     <Compile Include="Serialization\CFDiLoader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

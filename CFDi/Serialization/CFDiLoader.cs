@@ -3,16 +3,20 @@ using System.IO;
 using System.Xml;
 using System;
 using CFDi.Comprobantes;
+using CFDi.Exception;
 
 namespace CFDi.Serialization
 {
 	public class CFDiLoader
 	{
 		private XmlSerializer _serializer;
-
-		public CFDiLoader(Type type, string @namespace)
+		public readonly int version;
+		public readonly string @namespace;
+		public CFDiLoader(Type type, string @namespace, int version)
 		{
 			_serializer = new XmlSerializer(type, @namespace);
+			this.version = version;
+			this.@namespace = @namespace;
 		}
 
 		public void SaveCFDi(string directoryPath, ComprobanteBase cfdi)
@@ -21,7 +25,7 @@ namespace CFDi.Serialization
 		}
 
 
-		public void SaveCFDi(Stream stream, ComprobanteBase cfdi)
+		public void SaveCFDi(XmlWriter stream, ComprobanteBase cfdi)
 		{
 			_serializer.Serialize(stream, cfdi);
 		}
@@ -33,35 +37,17 @@ namespace CFDi.Serialization
 
 		public ComprobanteBase LoadCFDi(string directoryPath, string fileName)
 		{
-			try
+			string path = Path.Combine(directoryPath, fileName);
+			using (var stream = new FileStream(path, FileMode.Open))
 			{
-				string path = Path.Combine(directoryPath, fileName);
-				using (var stream = new FileStream(directoryPath, FileMode.Open))
-				{
-					return LoadCFDi(stream);
-				}
-			}
-			catch (InvalidOperationException)
-			{
-				return null;
+				return LoadCFDi(stream);
 			}
 		}
 
 		public ComprobanteBase LoadCFDi(Stream stream)
 		{
-			try
-			{
-				XmlReader reader = new XmlTextReader(stream);
-				if (_serializer.CanDeserialize(reader))
-				{
-					return _serializer.Deserialize(reader) as ComprobanteBase;
-				}
-				throw new Exception();
-			}
-			catch (InvalidOperationException)
-			{
-				return null;
-			}
+			XmlReader reader = new XmlTextReader(stream);
+			return _serializer.Deserialize(reader) as ComprobanteBase;
 		}
 	}
 }
